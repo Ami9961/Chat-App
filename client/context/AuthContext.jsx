@@ -70,6 +70,7 @@ export const AuthProvider = ({ children})=>{
                 if(data.success){
                     setAuthUser(data.user);
                     toast.success("Profile updated successfully")
+                   
                 }
             }catch(error){
                 toast.error(error.message)

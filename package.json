@@ -4,11 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-  "client": "cd client && npm run dev",
-  "server": "cd server && npm run dev",
-  "dev": "concurrently \"npm run server\" \"npm run client\"",
-  "test": "echo \"Error: no test specified\" && exit 1"
-},
+    "client": "cd client && npm run dev",
+    "server": "cd server && npm run dev",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Ami9961/Chat-App.git"
@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/Ami9961/Chat-App/issues"
   },
-  "homepage": "https://github.com/Ami9961/Chat-App#readme"
+  "homepage": "https://github.com/Ami9961/Chat-App#readme",
+  "dependencies": {
+    "jsonwebtoken": "^9.0.2"
+  }
 }
