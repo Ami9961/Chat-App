@@ -23,5 +23,8 @@
   "homepage": "https://github.com/Ami9961/Chat-App#readme",
   "dependencies": {
     "jsonwebtoken": "^9.0.2"
+  },
+  "devDependencies": {
+    "concurrently": "^9.2.0"
   }
 }
