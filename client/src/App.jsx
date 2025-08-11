@@ -11,7 +11,7 @@ import { Navigate } from "react-router-dom";
 const App = () => {
   const { authUser } = useContext(AuthContext)
   return (
-    <div className="bg-[url('./src/assets/mainBg3.svg')] bg-contain"> {/* Main image  */}
+    <div className="bg-[url('/mainBg3.svg')] bg-contain"> {/* Main image  */}
       <Toaster/>
       <Routes>
         <Route path='/' element={authUser? <HomePage/> : <Navigate to= "/login"/>}/>
