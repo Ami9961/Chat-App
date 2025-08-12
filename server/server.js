@@ -10,7 +10,7 @@ import {Server} from "socket.io";
 
 // create Express app and Http server
 const app= express();
-const server = http.createServer(app)
+const server = http.createServer(app) 
 
 //Initialize socket.io server
 export const io = new Server(server,{
